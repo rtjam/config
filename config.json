@@ -1,0 +1,305 @@
+[
+  {
+    "iap": true,
+    "tabs": [
+      {
+        "arguments": [
+          "https://clubstreamlite.wixsite.com/website"
+        ],
+        "provider": "webview",
+        "drawable": "ic_action_internet",
+        "image": "ic_action_internet",
+        "title": "WebView"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_internet",
+    "image": "ic_action_internet",
+    "title": "WebView"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "overview.json"
+        ],
+        "provider": "overview",
+        "title": "Almaty"
+      },
+      {
+        "image": "",
+        "arguments": [
+          ""
+        ],
+        "provider": "overview",
+        "title": "Moscow"
+      },
+      {
+        "image": "",
+        "arguments": [
+          ""
+        ],
+        "provider": "overview",
+        "title": "Amsterdam"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_cities",
+    "image": "ic_action_cities",
+    "title": "Cities"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd"
+        ],
+        "provider": "stream",
+        "drawable": "ic_action_ic_facebook_outline",
+        "image": "ic_action_ic_facebook_outline",
+        "title": "Live360"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_ic_facebook_outline",
+    "image": "ic_action_ic_facebook_outline",
+    "title": "Live360"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "UC_IEcnNeHc_bwd92Ber-lew",
+          "live"
+        ],
+        "provider": "youtube",
+        "drawable": "ic_action_youtube",
+        "image": "ic_action_youtube",
+        "title": "Live"
+      },
+      {
+        "arguments": [
+          "UU7V6hW6xqPAiUfataAZZtWA",
+          "playlist"
+        ],
+        "provider": "youtube",
+        "title": "Playlist"
+      },
+      {
+        "arguments": [
+          "UCrKI8NLAJYsqxdIbTRJ81rA",
+          "channel"
+        ],
+        "provider": "youtube",
+        "drawable": "ic_action_youtube",
+        "image": "ic_action_youtube",
+        "title": "Channel"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_youtube",
+    "image": "ic_action_youtube",
+    "title": "Youtube"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "http://icecast.omroep.nl/3fm-alternative-mp3",
+          ""
+        ],
+        "provider": "radio",
+        "drawable": "ic_action_radio",
+        "image": "ic_action_radio",
+        "title": "Radio"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_radio",
+    "imsge": "ic_action_radio",
+    "title": "Radio"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "http://feeds.feedburner.com/AndroidPolice",
+          ""
+        ],
+        "provider": "rss",
+        "drawable": "ic_action_rss",
+        "image": "ic_action_rss",
+        "title": "Feed"
+      },
+      {
+        "arguments": [
+          "http://feeds.nature.com/nature/podcast/current",
+          ""
+        ],
+        "provider": "rss",
+        "title": "Podcast"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_rss",
+    "image": "ic_action_rss",
+    "title": "RSS"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "home",
+          "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/featured-e1534345513789.png",
+          "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/sale-1.png"
+        ],
+        "provider": "woocommerce",
+        "drawable": "ic_action_monetize",
+        "image": "ic_action_monetize",
+        "title": "Shop"
+      }
+    ],
+    "submenu": "ECommerce",
+    "drawable": "ic_action_monetize",
+    "image": "ic_action_monetize",
+    "title": "Monetize"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "orders",
+          ""
+        ],
+        "provider": "woocommerce",
+        "drawable": "ic_action_orders",
+        "image": "ic_action_orders",
+        "title": "Orders"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_orders",
+    "image": "ic_action_orders",
+    "title": "Orders"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "212094702",
+          "playlist"
+        ],
+        "provider": "soundcloud",
+        "title": "Playlist"
+      },
+      {
+        "arguments": [
+          "musicservlet.azurewebsites.net",
+          ""
+        ],
+        "provider": "wordpress_audio",
+        "title": "Playlist JP"
+      },
+      {
+        "arguments": [
+          "http://musicservlet.azurewebsites.net/wp-json/wp/v2/",
+          ""
+        ],
+        "provider": "wordpress_audio",
+        "title": "Playlist REST"
+      },
+      {
+        "arguments": [
+          "http://musicservlet.azurewebsites.net",
+          ""
+        ],
+        "provider": "wordpress_audio",
+        "title": "Playlist JSON"
+      }
+    ],
+    "submenu": "",
+    "drawable": "ic_action_soundcloud",
+    "image": "ic_action_soundcloud",
+    "title": "SoundCloud"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "Android",
+          ""
+        ],
+        "provider": "twitter",
+        "drawable": "ic_action_twitter",
+        "image": "ic_action_twitter",
+        "title": "Twitter"
+      }
+    ],
+    "submenu": "Social Media",
+    "drawable": "ic_action_twitter",
+    "image": "ic_action_twitter",
+    "title": "Twitter"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "17841402834084629",
+          ""
+        ],
+        "provider": "instagram",
+        "drawable": "ic_action_instagram",
+        "image": "ic_action_instagram",
+        "title": "Instagram"
+      }
+    ],
+    "submenu": "Social Media",
+    "drawable": "ic_action_instagram",
+    "image": "ic_action_instagram",
+    "title": "Instagram"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "307700939773381",
+          ""
+        ],
+        "provider": "facebook",
+        "drawable": "ic_action_facebook",
+        "image": "ic_action_facebook",
+        "title": "Facebook"
+      }
+    ],
+    "submenu": "Social Media",
+    "drawable": "ic_action_facebook",
+    "image": "ic_action_facebook",
+    "title": "Facebook"
+  },
+  {
+    "iap": false,
+    "tabs": [
+      {
+        "arguments": [
+          "https://www.mapbox.com/help/data/stations.geojson"
+        ],
+        "provider": "maps",
+        "title": ""
+      }
+    ],
+    "submenu": "Other",
+    "drawable": "",
+    "title": "Location"
+  }
+]
